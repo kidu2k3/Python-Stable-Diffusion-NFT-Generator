@@ -28,6 +28,7 @@
   </ol>
 
   <h3>Entering Details</h3>
+  <h3>NFT's are generated with metadata .json file</h3>
   <p>Follow the prompts to enter details about your NFT collection:</p>
   <ul>
     <li>Collection Description (e.g., NFT Collection)</li>
@@ -43,7 +44,3 @@
 ![nft_3](https://github.com/kidu2k3/Python-Stable-Diffusion-NFT-Generator/assets/64930683/12d9e461-72bb-40c0-8ee7-5bad81611f03)
 ![nft_2](https://github.com/kidu2k3/Python-Stable-Diffusion-NFT-Generator/assets/64930683/0d9128de-ff3e-4dec-ab76-1e121b97e845)
 ![nft_1](https://github.com/kidu2k3/Python-Stable-Diffusion-NFT-Generator/assets/64930683/48d9df05-fc45-4598-a23a-f218cbbfbb58)
-
-[nft_2.json](https://github.com/user-attachments/files/15780407/nft_2.json)
-[nft_1.json](https://github.com/user-attachments/files/15780406/nft_1.json)
-[nft_3.json](https://github.com/user-attachments/files/15780404/nft_3.json)
