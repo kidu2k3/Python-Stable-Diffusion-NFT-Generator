@@ -28,7 +28,7 @@
   </ol>
 
   <h3>Entering Details</h3>
-  <h3>NFT's are generated with metadata .json file</h3>
+  <h3>NFTs are generated with metadata .json file</h3>
   <p>Follow the prompts to enter details about your NFT collection:</p>
   <ul>
     <li>Collection Description (e.g., NFT Collection)</li>
