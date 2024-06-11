@@ -1,9 +1,9 @@
-requirements: pip install transformers
-              pip install torch diffusers pillow
-python main.py
-              Enter the description for the collection: NFT Collection
-Enter the base prompt for Stable Diffusion: in pixel art style, highly detailed, SciFy theme!
-Enter the number of NFTs you want to generate: 10
+requirements: pip install transformers /
+              pip install torch diffusers pillow /
+python main.py /
+              Enter the description for the collection: NFT Collection /
+Enter the base prompt for Stable Diffusion: in pixel art style, highly detailed, SciFy theme! /
+Enter the number of NFTs you want to generate: 10 /
 
 ![nft_3](https://github.com/kidu2k3/Python-Stable-Diffusion-NFT-Generator/assets/64930683/12d9e461-72bb-40c0-8ee7-5bad81611f03)
 ![nft_2](https://github.com/kidu2k3/Python-Stable-Diffusion-NFT-Generator/assets/64930683/0d9128de-ff3e-4dec-ab76-1e121b97e845)
