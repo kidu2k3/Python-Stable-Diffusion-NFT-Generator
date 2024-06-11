@@ -1,6 +1,6 @@
 <pre>
 requirements: pip install transformers
-                pip install torch diffusers pillow
+              pip install torch diffusers pillow
 
 python main.py
 
