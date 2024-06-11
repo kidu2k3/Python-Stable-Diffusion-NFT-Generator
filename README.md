@@ -1,23 +1,55 @@
-<pre>
-requirements: pip install transformers
-              pip install torch diffusers pillow
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automatic 1111 NFT Script Guide</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      padding: 20px;
+    }
+    pre {
+      overflow: auto; /* Enable horizontal scrolling if needed */
+      white-space: pre-wrap; /* Wrap long lines within the pre tag */
+      font-size: 0.8rem; /* Adjust font size for better fit */
+    }
+  </style>
+</head>
+<body>
+  <h1>Automatic 1111 NFT Script Guide</h1>
+  <p>This guide explains how to use a script for generating NFT images with Automatic 1111 WebUI.</p>
 
-Run Automatic 1111 WebUI: Ensure the WebUI is running on http://127.0.0.1:7860. Adjust the URL if your WebUI is running on a different port or address.
+  <h2>Requirements</h2>
+  <pre>
+    pip install transformers
+    pip install torch diffusers pillow
+  </pre>
 
-Model Setup: Ensure that aziibpixelmix_fastModeExperimental.safetensors is properly loaded in the WebUI.
+  <h3>Running Automatic 1111 WebUI</h3>
+  <p>Ensure the WebUI is running on http://127.0.0.1:7860. Adjust the URL if necessary.</p>
 
-Run the Script: Save the script as main.py and run it:
+  <h3>Model Setup</h3>
+  <p>Make sure the "aziibpixelmix_fastModeExperimental.safetensors" model is loaded properly in the WebUI.</p>
 
-python main.py
+  <h3>Running the Script</h3>
+  <ol>
+    <li>Save the script as <code>main.py</code>.</li>
+    <li>Run the script in your terminal:</li>
+    <pre>python main.py</pre>
+  </ol>
 
-Enter Details: Follow the prompts to enter the description for the collection, the base prompt for Stable Diffusion, and the number of NFTs you want to generate.  
-  
-Enter the description for the collection: NFT Collection
-
-Enter the base prompt for Stable Diffusion: in pixel art style, highly detailed, SciFy theme!
-
-Enter the number of NFTs you want to generate: 10
-</pre>
+  <h3>Entering Details</h3>
+  <p>Follow the prompts to enter details about your NFT collection:</p>
+  <ul>
+    <li>Collection Description (e.g., NFT Collection)</li>
+    <li>Base Prompt (e.g., in pixel art style, highly detailed, SciFy theme!)</li>
+    <li>Number of NFTs to Generate (e.g., 10)</li>
+  </ul>
+</body>
+</html>
 
 ![nft_3](https://github.com/kidu2k3/Python-Stable-Diffusion-NFT-Generator/assets/64930683/12d9e461-72bb-40c0-8ee7-5bad81611f03)
 ![nft_2](https://github.com/kidu2k3/Python-Stable-Diffusion-NFT-Generator/assets/64930683/0d9128de-ff3e-4dec-ab76-1e121b97e845)
