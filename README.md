@@ -2,8 +2,16 @@
 requirements: pip install transformers
               pip install torch diffusers pillow
 
+Run Automatic 1111 WebUI: Ensure the WebUI is running on http://127.0.0.1:7860. Adjust the URL if your WebUI is running on a different port or address.
+
+Model Setup: Ensure that aziibpixelmix_fastModeExperimental.safetensors is properly loaded in the WebUI.
+
+Run the Script: Save the script as main.py and run it:
+
 python main.py
 
+Enter Details: Follow the prompts to enter the description for the collection, the base prompt for Stable Diffusion, and the number of NFTs you want to generate.  
+  
 Enter the description for the collection: NFT Collection
 
 Enter the base prompt for Stable Diffusion: in pixel art style, highly detailed, SciFy theme!
