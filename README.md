@@ -1,34 +1,21 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Automatic 1111 NFT Script Guide</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      line-height: 1.5;
-      margin: 0;
-      padding: 20px;
-    }
-    pre {
-      overflow: auto; /* Enable horizontal scrolling if needed */
-      white-space: pre-wrap; /* Wrap long lines within the pre tag */
-      font-size: 0.8rem; /* Adjust font size for better fit */
-    }
-  </style>
-</head>
+  </head>
 <body>
-  <h1>Automatic 1111 NFT Script Guide</h1>
+  <h2>Automatic 1111 NFT Script Guide</h2>
   <p>This guide explains how to use a script for generating NFT images with Automatic 1111 WebUI.</p>
 
   <h2>Requirements</h2>
   <pre>
-    pip install transformers
-    pip install torch diffusers pillow
+  pip install transformers
+  pip install torch diffusers pillow
   </pre>
 
   <h3>Running Automatic 1111 WebUI</h3>
-  <p>Ensure the WebUI is running on http://127.0.0.1:7860. Adjust the URL if necessary.</p>
+  <p>Ensure the WebUI is running on <a href="http://127.0.0.1:7860">http://127.0.0.1:7860</a>. Adjust the URL if necessary.</p>
 
   <h3>Model Setup</h3>
   <p>Make sure the "aziibpixelmix_fastModeExperimental.safetensors" model is loaded properly in the WebUI.</p>
@@ -49,6 +36,9 @@
   </ul>
 </body>
 </html>
+
+
+
 
 ![nft_3](https://github.com/kidu2k3/Python-Stable-Diffusion-NFT-Generator/assets/64930683/12d9e461-72bb-40c0-8ee7-5bad81611f03)
 ![nft_2](https://github.com/kidu2k3/Python-Stable-Diffusion-NFT-Generator/assets/64930683/0d9128de-ff3e-4dec-ab76-1e121b97e845)
