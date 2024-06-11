@@ -56,6 +56,7 @@ if __name__ == "__main__":
     base_prompt = input("Enter the base prompt for Stable Diffusion: ")
     num_nfts = int(input("Enter the number of NFTs you want to generate: "))
 
+
     # Define paths
     output_path = 'output_nfts'
     metadata_path = 'metadata'
